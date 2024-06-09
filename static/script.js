@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
   
-            const response = await fetch('http://127.0.0.1:8000/contact/save_contact/', {
+            const response = await fetch('http://RiddhiGhiwari.pythonanywhere.com/contact/save_contact/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
